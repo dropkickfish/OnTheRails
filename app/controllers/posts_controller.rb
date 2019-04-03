@@ -4,6 +4,15 @@ class PostsController < ApplicationController
   # GET /posts
   # GET /posts.json
     def more
+      #@comments in the controller is an instance variable
+      #this means it is available to all methods in class AND available to View
+      @comments = Comment.all
+      #Comment is case sensitive. "Comment" references Comment model and .all
+      #means that it will get the field from the Comment model
+      
+      #Fun fact - this is the equivalent to SELECT * FROM Comments in SQL
+      #Another fun fact - I have no idea how to SQL but this comment might be
+      #useful later.
     end
 
     def index
