@@ -9,6 +9,7 @@ gem 'rails', '~> 5.2.3'
 gem 'puma', '~> 3.11'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
+
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # See https://github.com/rails/execjs#readme for more supported runtimes
@@ -23,6 +24,9 @@ gem 'jbuilder', '~> 2.5'
 gem 'bootstrap-sass', '~> 3.4.1'
 # Use jquery
 gem 'jquery-rails'
+
+#Use bootstrap form
+gem "bootstrap_form", ">= 4.2.0"
 
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
